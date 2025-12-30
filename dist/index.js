@@ -137,7 +137,7 @@ if (config_1.config.sentryDsn) {
 app.use(errorHandler_middleware_1.errorHandler);
 // Start server
 try {
-    app.listen(port, () => {
+    app.listen(port, '0.0.0.0', () => {
         logger_1.logger.info('Server started successfully', {
             port,
             environment: config_1.config.nodeEnv,
