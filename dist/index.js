@@ -107,7 +107,9 @@ app.use((0, cors_1.default)({
     allowedHeaders: ['Content-Type', 'Authorization'],
     maxAge: 86400,
 }));
-// Middleware - Rate limiting (general)
+// Health check route (BEFORE rate limiting so Railway can check it)
+app.use('/api/health', health_routes_1.healthRouter);
+// Middleware - Rate limiting (general) - Applied AFTER health check
 app.use('/api/', rateLimiter_middleware_1.generalLimiter);
 // Middleware - Body parsing
 app.use(express_1.default.json({ limit: '10mb' }));
@@ -117,8 +119,7 @@ app.use('/api-docs', swagger_ui_express_1.default.serve, swagger_ui_express_1.de
     customCss: '.swagger-ui .topbar { display: none }',
     customSiteTitle: 'Finance Tracker API Documentation',
 }));
-// Routes
-app.use('/api/health', health_routes_1.healthRouter);
+// Routes (health already registered above)
 app.use('/api/auth', auth_routes_1.authRouter);
 app.use('/api/users', user_routes_1.default);
 app.use('/api/2fa', twoFactor_routes_1.default);

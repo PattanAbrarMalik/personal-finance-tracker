@@ -77,7 +77,10 @@ app.use(cors({
   maxAge: 86400,
 }));
 
-// Middleware - Rate limiting (general)
+// Health check route (BEFORE rate limiting so Railway can check it)
+app.use('/api/health', healthRouter);
+
+// Middleware - Rate limiting (general) - Applied AFTER health check
 app.use('/api/', generalLimiter);
 
 // Middleware - Body parsing
@@ -90,8 +93,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
   customSiteTitle: 'Finance Tracker API Documentation',
 }));
 
-// Routes
-app.use('/api/health', healthRouter);
+// Routes (health already registered above)
 app.use('/api/auth', authRouter);
 app.use('/api/users', userRouter);
 app.use('/api/2fa', twoFactorRouter);
