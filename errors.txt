@@ -1,0 +1,124 @@
+﻿src/controllers/auth.controller.ts(22,20): error TS7030: Not all code paths return a value.
+src/controllers/twoFactor.controller.ts(3,10): error TS2305: Module '"../utils/auth/jwt"' has no exported member 'verifyJWT'.
+src/controllers/twoFactor.controller.ts(10,23): error TS7030: Not all code paths return a value.
+src/controllers/twoFactor.controller.ts(58,23): error TS7030: Not all code paths return a value.
+src/controllers/twoFactor.controller.ts(111,23): error TS7030: Not all code paths return a value.
+src/controllers/twoFactor.controller.ts(170,23): error TS7030: Not all code paths return a value.
+src/controllers/twoFactor.controller.ts(214,23): error TS7030: Not all code paths return a value.
+src/controllers/twoFactor.controller.ts(262,23): error TS7030: Not all code paths return a value.
+src/index.ts(21,26): error TS6133: 'authLimiter' is declared but its value is never read.
+src/middleware/advanced.middleware.ts(30,9): error TS2353: Object literal may only specify known properties, and 'method' does not exist in type 'Error'.
+src/middleware/advanced.middleware.ts(45,46): error TS6133: 'req' is declared but its value is never read.
+src/middleware/advanced.middleware.ts(54,52): error TS6133: 'res' is declared but its value is never read.
+src/middleware/advanced.middleware.ts(63,54): error TS6133: 'res' is declared but its value is never read.
+src/middleware/auth.middleware.ts(23,24): error TS6133: 'res' is declared but its value is never read.
+src/middleware/auth.middleware.ts(50,24): error TS6133: 'res' is declared but its value is never read.
+src/middleware/notFoundHandler.middleware.ts(6,3): error TS6133: 'res' is declared but its value is never read.
+src/middleware/rateLimiter.middleware.ts(16,10): error TS6133: 'req' is declared but its value is never read.
+src/middleware/rateLimiter.middleware.ts(22,7): error TS2353: Object literal may only specify known properties, and 'ip' does not exist in type 'Error'.
+src/middleware/rateLimiter.middleware.ts(48,10): error TS6133: 'req' is declared but its value is never read.
+src/middleware/rateLimiter.middleware.ts(53,7): error TS2353: Object literal may only specify known properties, and 'ip' does not exist in type 'Error'.
+src/middleware/rateLimiter.middleware.ts(77,10): error TS6133: 'req' is declared but its value is never read.
+src/middleware/rateLimiter.middleware.ts(82,7): error TS2353: Object literal may only specify known properties, and 'ip' does not exist in type 'Error'.
+src/middleware/validate.middleware.ts(18,44): error TS6133: 'res' is declared but its value is never read.
+src/middleware/validate.middleware.ts(27,17): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/middleware/validate.middleware.ts(27,33): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/middleware/validate.middleware.ts(41,9): error TS2322: Type 'unknown' is not assignable to type 'ParsedQs'.
+src/middleware/validate.middleware.ts(44,17): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/middleware/validate.middleware.ts(44,33): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/middleware/validate.middleware.ts(58,9): error TS2322: Type 'unknown' is not assignable to type 'ParamsDictionary'.
+src/middleware/validate.middleware.ts(61,17): error TS2339: Property 'errors' does not exist on type 'ZodError<unknown>'.
+src/middleware/validate.middleware.ts(61,33): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/routes/example.routes.ts(12,23): error TS6133: 'req' is declared but its value is never read.
+src/routes/example.routes.ts(61,23): error TS6133: 'req' is declared but its value is never read.
+src/routes/example.routes.ts(61,28): error TS6133: 'res' is declared but its value is never read.
+src/services/analytics.service.ts(12,45): error TS6133: 'months' is declared but its value is never read.
+src/services/analytics.service.ts(53,20): error TS2322: Type 'string | null' is not assignable to type 'string | (CategoryUserIdNameCompoundUniqueInput & string) | undefined'.
+  Type 'null' is not assignable to type 'string | (CategoryUserIdNameCompoundUniqueInput & string) | undefined'.
+src/services/analytics.service.ts(100,47): error TS6133: 'months' is declared but its value is never read.
+src/services/analytics.service.ts(101,26): error TS2532: Object is possibly 'undefined'.
+src/services/analytics.service.ts(104,25): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/services/analytics.service.ts(107,32): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/services/analytics.service.ts(110,34): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/services/analytics.service.ts(110,37): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/services/analytics.service.ts(111,35): error TS7006: Parameter 'sum' implicitly has an 'any' type.
+src/services/analytics.service.ts(111,40): error TS7006: Parameter 'y' implicitly has an 'any' type.
+src/services/analytics.service.ts(111,43): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/services/analytics.service.ts(117,24): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/services/analytics.service.ts(117,27): error TS7006: Parameter 'i' implicitly has an 'any' type.
+src/services/analytics.service.ts(144,46): error TS2339: Property 'limit' does not exist on type '{ category: { name: string; id: string; createdAt: Date; updatedAt: Date; color: string | null; icon: string | null; userId: string; } | null; } & { name: string; id: string; createdAt: Date; ... 6 more ...; userId: string; }'.
+src/services/analytics.service.ts(145,44): error TS2339: Property 'limit' does not exist on type '{ category: { name: string; id: string; createdAt: Date; updatedAt: Date; color: string | null; icon: string | null; userId: string; } | null; } & { name: string; id: string; createdAt: Date; ... 6 more ...; userId: string; }'.
+src/services/analytics.service.ts(148,21): error TS18047: 'budget.category' is possibly 'null'.
+src/services/analytics.service.ts(149,28): error TS2339: Property 'limit' does not exist on type '{ category: { name: string; id: string; createdAt: Date; updatedAt: Date; color: string | null; icon: string | null; userId: string; } | null; } & { name: string; id: string; createdAt: Date; ... 6 more ...; userId: string; }'.
+src/services/analytics.service.ts(153,34): error TS2339: Property 'limit' does not exist on type '{ category: { name: string; id: string; createdAt: Date; updatedAt: Date; color: string | null; icon: string | null; userId: string; } | null; } & { name: string; id: string; createdAt: Date; ... 6 more ...; userId: string; }'.
+src/services/analytics.service.ts(153,70): error TS2339: Property 'limit' does not exist on type '{ category: { name: string; id: string; createdAt: Date; updatedAt: Date; color: string | null; icon: string | null; userId: string; } | null; } & { name: string; id: string; createdAt: Date; ... 6 more ...; userId: string; }'.
+src/services/analytics.service.ts(177,20): error TS2322: Type 'string | null' is not assignable to type 'string | (CategoryUserIdNameCompoundUniqueInput & string) | undefined'.
+  Type 'null' is not assignable to type 'string | (CategoryUserIdNameCompoundUniqueInput & string) | undefined'.
+src/services/analytics.service.ts(192,31): error TS2532: Object is possibly 'undefined'.
+src/services/analytics.service.ts(193,27): error TS2532: Object is possibly 'undefined'.
+src/services/analytics.service.ts(206,42): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/services/analytics.service.ts(207,41): error TS7006: Parameter 'b' implicitly has an 'any' type.
+src/services/auth.service.ts(133,35): error TS6133: 'data' is declared but its value is never read.
+src/services/auth.service.ts(149,7): error TS2740: Type '{ name: string | null; id: string; email: string; }' is missing the following properties from type '{ name: string | null; id: string; email: string; password: string; twoFactorEnabled: boolean; twoFactorSecret: string | null; twoFactorBackupCodes: string | null; createdAt: Date; updatedAt: Date; }': password, twoFactorEnabled, twoFactorSecret, twoFactorBackupCodes, and 2 more.
+src/services/auth.service.ts(165,15): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(166,14): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(171,13): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(172,16): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(173,15): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(185,34): error TS6133: 'data' is declared but its value is never read.
+src/services/auth.service.ts(201,7): error TS2740: Type '{ name: string | null; id: string; email: string; }' is missing the following properties from type '{ name: string | null; id: string; email: string; password: string; twoFactorEnabled: boolean; twoFactorSecret: string | null; twoFactorBackupCodes: string | null; createdAt: Date; updatedAt: Date; }': password, twoFactorEnabled, twoFactorSecret, twoFactorBackupCodes, and 2 more.
+src/services/auth.service.ts(217,15): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(218,14): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(223,13): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(224,16): error TS18047: 'user' is possibly 'null'.
+src/services/auth.service.ts(225,15): error TS18047: 'user' is possibly 'null'.
+src/services/budget-forecasting.service.ts(82,5): error TS6133: 'currentBudget' is declared but its value is never read.
+src/services/budget.service.ts(3,10): error TS2305: Module '"@prisma/client"' has no exported member 'BudgetPeriod'.
+src/services/category.service.ts(3,1): error TS6133: 'TransactionType' is declared but its value is never read.
+src/services/category.service.ts(3,10): error TS2724: '"@prisma/client"' has no exported member named 'TransactionType'. Did you mean 'Transaction'?
+src/services/file.service.ts(22,7): error TS18047: 't.category' is possibly 'null'.
+src/services/file.service.ts(84,31): error TS6133: 'userId' is declared but its value is never read.
+src/services/file.service.ts(84,47): error TS6133: 'year' is declared but its value is never read.
+src/services/file.service.ts(84,61): error TS6133: 'month' is declared but its value is never read.
+src/services/goal-optimization.service.ts(123,40): error TS6133: 'monthlyIncome' is declared but its value is never read.
+src/services/notification.service.ts(81,28): error TS6133: 'userId' is declared but its value is never read.
+src/services/transaction.service.ts(3,10): error TS2724: '"@prisma/client"' has no exported member named 'TransactionType'. Did you mean 'Transaction'?
+src/tests/auth.test.ts(5,1): error TS6133: 'prisma' is declared but its value is never read.
+src/utils/api-builders.ts(186,50): error TS6133: 'entityType' is declared but its value is never read.
+src/utils/auth/jwt.ts(2,1): error TS6133: 'config' is declared but its value is never read.
+src/utils/auth/jwt.ts(16,14): error TS2769: No overload matches this call.
+  Overload 1 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: null, options?: (SignOptions & { algorithm: "none"; }) | undefined): string', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'null'.
+  Overload 2 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, options?: SignOptions | undefined): string', gave the following error.
+    Type 'string' is not assignable to type 'number | StringValue | undefined'.
+  Overload 3 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, callback: SignCallback): void', gave the following error.
+    Object literal may only specify known properties, and 'expiresIn' does not exist in type 'SignCallback'.
+src/utils/performance.ts(130,21): error TS2345: Argument of type 'Timer' is not assignable to parameter of type 'string | number | Timeout | undefined'.
+  Type 'Timer' is missing the following properties from type 'Timeout': close, _onTimeout, [Symbol.dispose]
+src/utils/queries.ts(128,9): error TS2353: Object literal may only specify known properties, and '_count' does not exist in type 'BudgetInclude<DefaultArgs>'.
+src/utils/scheduler.ts(136,21): error TS2345: Argument of type 'Timer' is not assignable to parameter of type 'string | number | Timeout | undefined'.
+  Type 'Timer' is missing the following properties from type 'Timeout': close, _onTimeout, [Symbol.dispose]
+src/utils/scheduler.ts(143,21): error TS2345: Argument of type 'Timer' is not assignable to parameter of type 'string | number | Timeout | undefined'.
+  Type 'Timer' is missing the following properties from type 'Timeout': close, _onTimeout, [Symbol.dispose]
+src/utils/scheduler.ts(158,20): error TS2345: Argument of type 'Timer' is not assignable to parameter of type 'string | number | Timeout | undefined'.
+  Type 'Timer' is missing the following properties from type 'Timeout': close, _onTimeout, [Symbol.dispose]
+src/utils/scheduler.ts(175,20): error TS2345: Argument of type 'Timer' is not assignable to parameter of type 'string | number | Timeout | undefined'.
+  Type 'Timer' is missing the following properties from type 'Timeout': close, _onTimeout, [Symbol.dispose]
+src/utils/scheduler.ts(182,20): error TS2345: Argument of type 'Timer' is not assignable to parameter of type 'string | number | Timeout | undefined'.
+  Type 'Timer' is missing the following properties from type 'Timeout': close, _onTimeout, [Symbol.dispose]
+src/utils/two-factor.ts(1,23): error TS7016: Could not find a declaration file for module 'speakeasy'. 'C:/Users/patta/OneDrive/Desktop/coindex/backend/node_modules/speakeasy/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/speakeasy` if it exists or add a new declaration (.d.ts) file containing `declare module 'speakeasy';`
+src/utils/two-factor.ts(2,20): error TS7016: Could not find a declaration file for module 'qrcode'. 'C:/Users/patta/OneDrive/Desktop/coindex/backend/node_modules/qrcode/lib/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/qrcode` if it exists or add a new declaration (.d.ts) file containing `declare module 'qrcode';`
+src/utils/validation/schemas.ts(26,11): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: readonly ["INCOME", "EXPENSE"], params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Object literal may only specify known properties, and 'errorMap' does not exist in type '{ error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; }'.
+  Overload 2 of 2, '(entries: Readonly<Record<string, EnumValue>>, params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Argument of type 'string[]' is not assignable to parameter of type 'Readonly<Record<string, EnumValue>>'.
+      Index signature for type 'string' is missing in type 'string[]'.
+src/utils/validation/schemas.ts(62,13): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: readonly ["WEEKLY", "MONTHLY", "YEARLY"], params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Object literal may only specify known properties, and 'errorMap' does not exist in type '{ error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; }'.
+  Overload 2 of 2, '(entries: Readonly<Record<string, EnumValue>>, params?: string | { error?: string | $ZodErrorMap<$ZodIssueInvalidValue<unknown>> | undefined; message?: string | undefined; } | undefined): ZodEnum<...>', gave the following error.
+    Argument of type 'string[]' is not assignable to parameter of type 'Readonly<Record<string, EnumValue>>'.
+      Index signature for type 'string' is missing in type 'string[]'.
