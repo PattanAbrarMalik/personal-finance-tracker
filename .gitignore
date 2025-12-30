@@ -2,7 +2,7 @@
 node_modules/
 
 # Build outputs
-dist/
+# dist/ - Commented out to allow committing for Railway
 *.tsbuildinfo
 
 # Environment variables
